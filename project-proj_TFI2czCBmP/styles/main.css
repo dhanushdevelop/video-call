@@ -1,0 +1,28 @@
+.app-container {
+    min-height: 100vh;
+    background-color: #1a1a1a;
+}
+
+.video-grid {
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.connection-status {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+}
+
+.connection-status.connected {
+    background-color: #22c55e;
+    color: white;
+}
+
+.connection-status.disconnected {
+    background-color: #ef4444;
+    color: white;
+}
